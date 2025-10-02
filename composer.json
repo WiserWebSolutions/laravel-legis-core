@@ -57,10 +57,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelLegis\\Core\\CoreServiceProvider"
+                "LaravelLegis\\Core\\ServiceProvider"
             ],
             "aliases": {
-                "Legis": "LaravelLegis\\Core\\Facades\\LaravelLegis"
+                "Legis": "LaravelLegis\\Core\\Facades\\LegisCore"
             }
         }
     },
