@@ -6,8 +6,6 @@ use Illuminate\Support\Collection;
 
 interface DriverInterface
 {
-    public string $baseUrl;
-
     /**
      * Get the name of the driver.
      */
