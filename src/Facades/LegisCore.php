@@ -1,6 +1,6 @@
 <?php
 
-namespace WiserWebSolutions\LaravelLegiscan\Facades;
+namespace LaravelLegis\Core\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use LaravelLegis\Core\Manager;
@@ -8,7 +8,7 @@ use LaravelLegis\Core\Manager;
 /**
  * @see \LaravelLegis\Core\Manager
  */
-class LegisCCore extends Facade
+class LegisCore extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
