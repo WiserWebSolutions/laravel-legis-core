@@ -40,5 +40,10 @@ class ServiceProvider extends BaseServiceProvider
         $this->app->singleton(Manager::class, function () {
             return new Manager();
         });
+
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/legis-core.php',
+            'legis-core'
+        );
     }
 }
