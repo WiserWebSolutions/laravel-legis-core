@@ -27,7 +27,7 @@ return [
     */
     'cache' => [
         'enabled' => env('LEGIS_CACHE_ENABLED', true),
-        'store' => env('LEGIS_CACHE_STORE', env('CACHE_STORE')),
+        'store' => env('LEGIS_CACHE_STORE', 'file'),
         'ttl' => env('LEGIS_CACHE_TTL', 3600),
     ],
 
